@@ -40,3 +40,5 @@
 .read-the-docs {
   color: #888;
 }
+button{color: white;scale: .8;}
+.task{display: flex;flex-direction: row;justify-content: space-between;margin: 10px 0px;}

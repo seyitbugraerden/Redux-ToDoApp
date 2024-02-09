@@ -1,4 +1,10 @@
 [
-    "Can",
-    "Buğra"
+    {
+      "name" : "Can",
+      "id" : 1
+    },
+    {
+      "name" : "Buğra",
+      "id" : 2
+    }
   ]

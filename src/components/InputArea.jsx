@@ -16,6 +16,7 @@ function InputArea() {
         onChange={(e) => {
           dispatch(changeValue(e.target.value));
         }}
+        placeholder="Add Task"
       />
       <Button
         icon="pi pi-check"
