@@ -17,7 +17,7 @@ function TaskShow() {
                 dispatch(deleteTask(item.id));
               }}
             >
-              Sil
+              Tamamlandı
             </button>
           </div>
         ))}

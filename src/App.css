@@ -41,4 +41,57 @@
   color: #888;
 }
 button{color: white;scale: .8;}
-.task{display: flex;flex-direction: row;justify-content: space-between;margin: 10px 0px;}
+input{width: 90%;}
+.task{display: flex;flex-direction: row;justify-content: space-between;margin: 10px 0px;animation: fade-in 600ms;position: relative;}
+.fade-out{animation: fade-out 600ms;}
+#root{min-width: 60%;}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    
+    left: -100px;
+  }
+  100% {
+    opacity:1;
+    left: 0;
+  }
+}
+@keyframes fade-out{
+  0% {
+    opacity:1;
+    left: 0;
+  }
+  100% {
+    opacity: 0;
+    left: -100px !important;
+  }
+  
+}.task-item-enter {
+  opacity: 0;
+}
+
+.task-item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.task-item-exit {
+  opacity: 1;
+}
+
+.task-item-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}
+
+.deleted {
+  animation: shake 0.5s ease;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(5px); }
+  50% { transform: translateX(-5px); }
+  75% { transform: translateX(3px); }
+  100% { transform: translateX(0); }
+}
