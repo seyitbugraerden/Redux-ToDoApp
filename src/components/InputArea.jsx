@@ -10,7 +10,7 @@ function InputArea() {
 
   return (
     <>
-      <h4>Input Area</h4>
+      <h2>To Do App</h2>
       <InputText
         value={value}
         onChange={(e) => {
