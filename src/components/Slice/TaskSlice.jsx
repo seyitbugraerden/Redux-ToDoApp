@@ -12,12 +12,14 @@ const taskSlice = createSlice({
   name: "task",
   initialState,
   reducers: {
-    addTask: (state, action) => {
-      state.data.push({
-        name: state.value,
-        id: nanoid(),
-      });
-      state.value = "";
+    addTask: (state) => {
+      if (state.value !== "") {
+        state.data.push({
+          name: state.value,
+          id: nanoid(),
+        });
+        state.value = "";
+      }
     },
     changeValue: (state, action) => {
       state.value = action.payload;
