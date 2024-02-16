@@ -1,8 +1,8 @@
-# React + Vite
+<div>
+<div align="left"> 
+  <img src="https://github.com/seyitbugraerden/Redux-ToDoApp/assets/154025499/6ae4bdbd-0cba-4286-9b75-f1331539c75f" alt="pic2" height="600" align="right">
+<h2>Redux ToDoApp</h2>
+<p>You can delete & add taskes.</p>
+<p>Full responsive</p></div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+</div>
