@@ -24,7 +24,7 @@ function TaskShow() {
           <div key={index} className="task" id={item.id}>
             <p>{item.name}</p>
             <button onClick={() => handleTaskDelete(item.id)}>
-              Tamamlandı
+              Completed
             </button>
           </div>
         ))}
